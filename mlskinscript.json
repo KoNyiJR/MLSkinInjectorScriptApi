@@ -3,29 +3,29 @@
     "hero": [
         {
             "name": "fanny",
-          ''photo'':''www'',
+          "photo":"www",
                 "skin": [
-{''name'':''Light bron'',
-''photo'':''wwww. jjkk'',
-''link'':''downloadlink''
+{"name":"Light bron",
+"photo":"wwww. jjkk",
+"link":"downloadlink"
 },
-{''name'':''EpicSkin'',
-''photo'':''wwww. jjkk'',
-''link'':''downloadlink''
+{"name":"EpicSkin",
+"photo":"wwww. jjkk",
+"link":"downloadlink"
 }
 ]},
 
       {
             "name": "Miya",
-          ''photo'':''www'',
+          "photo":"www",
                 "skin": [
-{''name'':''specialSkin'',
-''photo'':''wwww. jjkk'',
-''link'':''downloadlink''
+{"name":"specialSkin",
+"photo":"wwww. jjkk",
+"link":"downloadlink"
 },
-{''name'':''EpicSkin'',
-''photo'':''wwww. jjkk'',
-''link'':''downloadlink''
+{"name":"EpicSkin",
+"photo":"wwww. jjkk",
+"link":"downloadlink"
 }
 ]},
 
