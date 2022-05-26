@@ -1,5 +1,5 @@
 {
-"version":"1.2.0",
+"version":"1.2.1",
 "knserver":[
    {
    "type":"DIRECT",
@@ -14,10 +14,10 @@
 },
   {
    "type":"SSH",
-   "name":" Singapore( SSH+Payload ) ",
+   "name":" Singapore(443 ssh ) ",
    "flag":"sg",
    "serverhost":"165.22.255.179",
-   "sshport":"550",
+   "sshport":"443",
    "username":"fuckyousniffer",
    "password":"fuckyousniffer",
    "sni":"PUT http://www.mectel.com.mm/ HTTP/1.1[crlf]Host: www.mectel.com.mm[crlf][crlf]CONNECT [host_port] [protocol][crlf][crlf]",
@@ -25,10 +25,10 @@
 },
   {
    "type":"SSL",
-   "name":" Singapore( SSL + Proxy )",
+   "name":" Singapore( 550)",
    "flag":"sg",
    "serverhost":"165.22.255.179",
-   "sshport":"443",
+   "sshport":"550",
    "username":"fuckyousniffer",
    "password":"fuckyousniffer",
    "sni":"facebook.com",
