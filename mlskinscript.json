@@ -1,34 +1,38 @@
-
-{  
-    "hero": [
-        {
-            "name": "fanny",
-          "photo":"www",
-                "skin": [
-{"name":"Light bron",
-"photo":"wwww. jjkk",
-"link":"downloadlink"
+{
+"version":"1.2.0",
+"knserver":[
+   {
+   "type":"DIRECT",
+   "name":" Singapore( Direct SSH ) ",
+   "flag":"sg",
+   "serverhost":"165.22.255.179",
+   "sshport":"550",
+   "username":"fuckyousniffer",
+   "password":"fuckyousniffer",
+   "sni":"facebook.com",
+   "proxyport":"8000"
 },
-{"name":"EpicSkin",
-"photo":"wwww. jjkk",
-"link":"downloadlink"
-}
-]},
-
-      {
-            "name": "Miya",
-          "photo":"www",
-                "skin": [
-{"name":"specialSkin",
-"photo":"wwww. jjkk",
-"link":"downloadlink"
+  {
+   "type":"SSH",
+   "name":" Singapore( SSH+Payload ) ",
+   "flag":"sg",
+   "serverhost":"165.22.255.179",
+   "sshport":"550",
+   "username":"fuckyousniffer",
+   "password":"fuckyousniffer",
+   "sni":"PUT http://www.mectel.com.mm/ HTTP/1.1[crlf]Host: www.mectel.com.mm[crlf][crlf]CONNECT [host_port] [protocol][crlf][crlf]",
+   "proxyport":"8000"
 },
-{"name":"EpicSkin",
-"photo":"wwww. jjkk",
-"link":"downloadlink"
+  {
+   "type":"SSL",
+   "name":" Singapore( SSL + Proxy )",
+   "flag":"sg",
+   "serverhost":"165.22.255.179",
+   "sshport":"443",
+   "username":"fuckyousniffer",
+   "password":"fuckyousniffer",
+   "sni":"facebook.com",
+   "proxyport":"8000"
 }
-]},
-
-        
-    ]
+]
 }
